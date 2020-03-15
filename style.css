@@ -115,6 +115,18 @@ h3 {
     font-size: 2rem;
   }
 
+  h2 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+  }
+
+  .features__heading {
+    width: 70%;
+  }
+
   .row {
     width: 100%;
     max-width: 1200px;
@@ -125,5 +137,19 @@ h3 {
 
   .col {
     width: 30%;
+  }
+
+  .feature__title {
+    font-size: 2rem;
+  }
+
+  .feature__description {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .features__heading {
+    width: 55%;
   }
 }
