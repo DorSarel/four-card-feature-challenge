@@ -11,7 +11,11 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
     <title>Frontend Mentor | Four card feature section</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -26,70 +30,61 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <header>
-        <h1 class="heading-1">
-          Reliable, efficient delivery<br /><span
-            class="heading-1 heading-1--bold"
-            >Powered by Technology</span
-          >
-        </h1>
-        <p>
-          Our Artificial Intelligence powered tools use millions of project data
-          points to ensure that your project is successful
-        </p>
-      </header>
-
-      <main>
-        <section class="features">
+    <main class="container">
+      <section class="features">
+        <div class="features__heading">
+          <h2 class="heading-2">
+            Reliable, efficient delivery<br /><span
+              class="heading-2 heading--bold"
+              >Powered by Technology</span
+            >
+          </h2>
+          <p>
+            Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful
+          </p>
+        </div>
+        <div class="row">
           <div class="col">
-            <div class="feature">
-              <h2 class="feature__title">Supervisor</h2>
+            <div class="feature feature--cyan">
+              <h3 class="feature__title heading--bold">Supervisor</h3>
               <p class="feature__description">
                 Monitors activity to identify project roadblocks
               </p>
-              <svg class="feature__icon">
-                <use href="./images/icon-supervisor.svg" />
-              </svg>
+              <img src="./images/icon-supervisor.svg" class="feature__icon" />
             </div>
           </div>
           <div class="col">
-            <div class="feature">
-              <h2 class="feature__title">Team Builder</h2>
+            <div class="feature feature--red">
+              <h3 class="feature__title heading--bold">Team Builder</h3>
               <p class="feature__description">
                 Scans our talent network to create the optimal team for your
                 project
               </p>
-              <svg class="feature__icon">
-                <use href="./images/icon-team-builder.svg" />
-              </svg>
+              <img src="./images/icon-team-builder.svg" class="feature__icon" />
             </div>
 
-            <div class="feature">
-              <h2 class="feature__title">Karma</h2>
+            <div class="feature feature--orange">
+              <h3 class="feature__title heading--bold">Karma</h3>
               <p class="feature__description">
                 Regularly evaluates our talent to ensure quality
               </p>
-              <svg class="feature__icon">
-                <use href="./images/icon-karma.svg" />
-              </svg>
+              <img src="./images/icon-karma.svg" class="feature__icon" />
             </div>
           </div>
           <div class="col">
-            <div class="feature">
-              <h2 class="feature__title">Calculator</h2>
+            <div class="feature feature--blue">
+              <h3 class="feature__title heading--bold">Calculator</h3>
               <p class="feature__description">
                 Uses data from past projects to provide better delivery
                 estimates
               </p>
-              <svg class="feature__icon">
-                <use href="./images/icon-calculator.svg" />
-              </svg>
+              <img src="images/icon-calculator.svg" class="feature__icon" />
             </div>
           </div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
 
     <footer>
       <p class="attribution">
